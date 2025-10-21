@@ -1,0 +1,8 @@
+{
+  "model": "hf",
+  "model_args": "pretrained=outputs/t5_activation_entropy.pt,use_accelerate=True",
+  "tasks": ["hellaswag", "arc_easy", "winogrande"],
+  "num_fewshot": 0,
+  "batch_size": "auto",
+  "device": "cuda"
+}

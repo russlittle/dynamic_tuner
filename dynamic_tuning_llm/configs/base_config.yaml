@@ -1,0 +1,7 @@
+model_name: "t5-base"
+batch_size: 4
+max_epochs: 3
+learning_rate: 3e-5
+use_gpu: true
+dataset: "super_glue"
+subset: "copa"

@@ -1,0 +1,10 @@
+transformers==4.38.2
+datasets
+scikit-learn
+matplotlib
+wandb
+tqdm
+pytorch-lightning
+sentencepiece
+torch
+git+https://github.com/EleutherAI/lm-eval-harness.git
